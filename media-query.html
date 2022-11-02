@@ -17,9 +17,20 @@
          display: flex;
          justify-content: center ;
       }
+      @media(max-width: 700px){
+         .container{
+            flex-direction: column;
+            background-color: aqua;
+         }
+         .container .card{
+            background-color: white;
+            margin: 20px auto;
+         }
+      }
    </style>
 </head>
 <body>
+   <!-- media query for practice purpose -->
    <div class="container">
       <div class="card">
          <p>
